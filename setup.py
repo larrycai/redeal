@@ -82,7 +82,9 @@ On a Unix system, do not use the zip archives from github.""")
 
 
 setuptools.setup(
-    cmdclass={"build_ext": build_ext},
-    ext_modules=[setuptools.Extension("", [])],
+# pip install git+https://github.com/larrycai/redeal
+# patch to build ext during pip install
+#    cmdclass={"build_ext": build_ext},
+#    ext_modules=[setuptools.Extension("", [])],
     packages=["redeal"],
 )
