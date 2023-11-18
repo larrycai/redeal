@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "redeal"
-description = "A reimplementation of Thomas Andrews' Deal in Python."
+description = "A reimplementation of Thomas Andrews' Deal in Python. - Hacked without dds lib"
 readme = "README.rst"
 authors = [{name = "Antony Lee"}]
 urls = {Repository = "https://github.com/anntzer/redeal"}
