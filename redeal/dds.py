@@ -167,7 +167,7 @@ elif os.name == "nt":
 if dll_name:
     dll_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                             dll_name)
-
+print(f"dll_name: {dll_name}, dll_path: {dll_path}")
 if dll_name and os.path.exists(dll_path):
     dll = DLL(dll_path)
     dll.SolveBoard.argtypes = [
